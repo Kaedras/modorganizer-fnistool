@@ -268,7 +268,7 @@ class FNISTool(mobase.IPluginTool):
                     continue
                 isSameAsFnisOutput = pathlibPath.samefile(fnisOutputPath)
                 if isSameAsFnisOutput:
-                    QMessageBox.information(self.__parentWidget, self.tr("Same as FNIS output"), self.tr("The selected mod is the same as the FNIS output mod.  Please choose a different mod."))
+                    QMessageBox.information(self.__parentWidget, self.tr("Same as FNIS output"), self.tr("The selected mod is the same as the FNIS output mod. Please choose a different mod."))
                     continue
                 empty = True
                 for item in pathlibPath.iterdir():
